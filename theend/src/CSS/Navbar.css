@@ -1,0 +1,21 @@
+.nav-link{
+    color: black !important;
+  }
+  .navbar-brand{
+    color: black !important;
+  }
+  .nav-item{
+      margin-left: 15px;
+  }
+
+  .dropDown{
+    margin-bottom: 10px !important;    
+  }
+  .Nabtitle{
+    font-size: 30px !important;
+    font-weight: 900 !important;
+  }
+
+  .Nabtitle:hover{
+    color: brown !important;
+  }

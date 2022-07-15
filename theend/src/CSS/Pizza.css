@@ -1,0 +1,38 @@
+  .flex-container{
+    display: flex !important;
+  }
+  .pizza-img{
+    height: 130px !important;
+    width: 140px !important;
+  }
+  #modal-img{
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 50% !important;
+    }
+    .form-control{
+      border: 1px solid rgb(42, 17, 79) !important;
+    }
+
+
+    @media only screen and (max-width: 600px) {
+      .pizza-name {
+        font-size: 15px;
+      }
+      .pizza-img{
+        height: 90px !important;
+        width: 90px !important;
+      }
+      .pizza-price{
+        margin: 2px !important;
+      }
+      .add-to-cart{
+        display: flex !important;
+        flex-direction: column !important;
+        align-self: flex-end !important;
+      }
+      .varient-quantity-title{
+        font-size: 14px;
+      }
+    }

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url(./CSS/Pizza.css);
+@import url(./CSS/Home.css);
+@import url(./CSS/Navbar.css);
+@import url(./CSS/Loading.css);
+@import url(./CSS/Cartpage.css);
+@import url(./CSS/Register.css);
+@import url(./CSS/Login.css);
+@import url(./CSS/Error.css);
+@import url(./CSS/Adminpage.css);
+@import url(./CSS/Addnewpizza.css);
+@import url(./CSS/Pizzalist.css);
+body {
+  padding: 0px !important;
+  margin: 0px !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif !important;
+  scroll-behavior: smooth;
+}
+.App{
+  padding: 0px;
+  margin: 0px;
+}
+
+
+h1{
+  font-size: 15px !important;
+}
+
+.btn{
+  color: white !important;
+  box-shadow: none !important;
+  background-color: rgb(42, 17, 79) !important;
+}
+.btn:focus{
+  color: rgb(42, 17, 79) !important;
+  background-color: white !important;
+  border: 1px solid rgb(42, 17, 79) !important;
+}
+select{
+  box-shadow: none !important;
+  border-color: black !important;
+}
+a{
+  text-decoration: none !important;
+}
+
+/*  
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgb(42, 17, 79) !important;
+  }
+} */

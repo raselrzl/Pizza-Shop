@@ -1,0 +1,20 @@
+.admin-pannel{
+    text-align: center;
+    margin: 30px;
+    color: brown !important;
+}
+.title{
+    font-size: 35px;
+}
+.Admin-function{
+    padding: 10px;
+    background-color: rgb(12, 12, 86);
+}
+.Admin-function li{
+    list-style-type: none;
+    display: inline;
+}
+.Admin-function li a{
+    color: blueviolet;
+    padding: 20px;
+}
